@@ -16,7 +16,11 @@ function App() {
           </div>
           <div className="container__form">
             <div>Try it free 7 days then $20/mo. thereafter</div>
-            <SignupForm />
+            <div>
+              <div class="container__form--wrapper">
+                <SignupForm />
+              </div>
+            </div>
           </div>
         </div>
       </main>

@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Signupform.module.css";
 
 function SignupForm() {
   return (
@@ -9,7 +10,10 @@ function SignupForm() {
       <input type="password" placeholder="Password" />
       <input type="submit" value={"Claim your free trial"} />
 
-      <p>By clicking the button, you are agreeing to our Terms and Services</p>
+      <p>
+        By clicking the button, you are agreeing to our{" "}
+        <a href="">Terms and Services</a>
+      </p>
     </form>
   );
 }

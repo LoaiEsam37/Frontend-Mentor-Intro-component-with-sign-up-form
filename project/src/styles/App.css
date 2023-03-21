@@ -1,0 +1,52 @@
+#root {
+  background-image: url(../assets/bg-intro-desktop.png);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.container__content {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  color: white;
+}
+
+.container__content h1 {
+  padding-right: 30%;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 20px;
+  line-height: 2.5rem;
+}
+
+.container__content p {
+  padding-right: 25%;
+}
+
+.container__form {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container__form div:nth-child(2) {
+  background-color: white;
+}
+
+.container__form--wrapper {
+  padding: 20px 10px 20px 10px;
+  max-width: 500px;
+}

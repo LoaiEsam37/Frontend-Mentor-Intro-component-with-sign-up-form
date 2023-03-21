@@ -1,0 +1,23 @@
+form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+input {
+  padding: 10px 20px 10px 25px;
+  border-radius: 5px;
+  border: 1px var(--grayish-blue-color) solid;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input:focus {
+  outline: 1px black solid;
+}
+
+p {
+  margin-right: auto;
+  margin-left: auto;
+}

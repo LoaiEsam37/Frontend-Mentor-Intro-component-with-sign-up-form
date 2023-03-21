@@ -2,22 +2,44 @@ form {
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 100%;
 }
 
-input {
+form input {
   padding: 10px 20px 10px 25px;
   border-radius: 5px;
   border: 1px var(--grayish-blue-color) solid;
   margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
-input:focus {
+form input:focus {
   outline: 1px black solid;
 }
 
-p {
+
+form input[type=submit] {
+  background-color: var(--green-color);
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+form input[type=submit]:hover {
+  background-color: #77e2b4;
+  cursor: pointer;
+}
+
+form p {
+  font-size: 9px;
+  color: var(--grayish-blue-color);
   margin-right: auto;
   margin-left: auto;
+}
+
+form p a {
+  text-decoration: none;
+  color: var(--red-color);
 }

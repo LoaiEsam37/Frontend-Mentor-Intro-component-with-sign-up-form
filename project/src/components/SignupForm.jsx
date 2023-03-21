@@ -6,7 +6,7 @@ function SignupForm() {
     <form>
       <input type="text" placeholder="First Name" />
       <input type="text" placeholder="Last Name" />
-      <input type="email" placeholder="Email Address" />
+      <input type="text" placeholder="Email Address" />
       <input type="password" placeholder="Password" />
       <input type="submit" value={"Claim your free trial"} />
 

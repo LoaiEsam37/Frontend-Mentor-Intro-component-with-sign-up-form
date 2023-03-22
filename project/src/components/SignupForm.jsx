@@ -25,6 +25,7 @@ function SignupForm() {
   const onSubmit = (data) => {
     alert(JSON.stringify(data));
   };
+
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <input type="text" placeholder="First Name" {...register("firstName")} />

@@ -7,7 +7,7 @@ function App() {
       <main>
         <div className="container">
           <div className="container__content">
-            <div class="container__content--wrapper">
+            <div className="container__content--wrapper">
               <h1>Learn to code by watching others</h1>
               <p>
                 See how experienced developers solve problems in real-time.
@@ -21,7 +21,7 @@ function App() {
               Try it free 7 days <span>then $20/mo. thereafter</span>
             </div>
             <div>
-              <div class="container__form--wrapper">
+              <div className="container__form--wrapper">
                 <SignupForm />
               </div>
             </div>

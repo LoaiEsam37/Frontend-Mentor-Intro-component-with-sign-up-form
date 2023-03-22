@@ -32,7 +32,19 @@ form input[type=submit]:hover {
   cursor: pointer;
 }
 
-form p {
+form input[type=submit]:focus {
+  outline: none;
+}
+
+form span {
+  font-size: 10px;
+  color: var(--red-color);
+  text-align: right;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+form p:last-child {
   font-size: 9px;
   color: var(--grayish-blue-color);
   margin-right: auto;

@@ -42,6 +42,18 @@ form span {
   text-align: right;
   margin-top: -15px;
   margin-bottom: 10px;
+  position: relative;
+}
+
+form span::before {
+  content: "";
+  position: absolute;
+  background-image: url(../assets/icon-error.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  top: -36px;
+  right: 14px;
 }
 
 form p:last-child {
